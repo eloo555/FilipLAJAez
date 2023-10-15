@@ -1,7 +1,7 @@
 <?php
-@$a = $_GET['a'];
-@$b = $_GET['b'];
-@$opcja = $_GET['opcja'];
+@$a = $_POST['a'];
+@$b = $_POST['b'];
+@$opcja = $_POST['opcja'];
 
 if($opcja == "a")
 {
